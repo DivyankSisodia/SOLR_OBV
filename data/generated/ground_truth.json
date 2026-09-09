@@ -1,0 +1,81 @@
+{
+  "simulation_start": "2026-01-15T09:00:00+00:00",
+  "nodes": [
+    "solr-node-01",
+    "solr-node-02",
+    "solr-node-03",
+    "solr-node-04",
+    "solr-node-05",
+    "solr-node-06",
+    "solr-node-07",
+    "solr-node-08",
+    "solr-node-09",
+    "solr-node-10",
+    "solr-node-11",
+    "solr-node-12",
+    "solr-node-13",
+    "solr-node-14",
+    "solr-node-15",
+    "solr-node-16",
+    "solr-node-17",
+    "solr-node-18",
+    "solr-node-19",
+    "solr-node-20",
+    "solr-node-21",
+    "solr-node-22",
+    "solr-node-23",
+    "solr-node-24",
+    "solr-node-25"
+  ],
+  "incidents": [
+    {
+      "scenario": "JVM_MEMORY_PRESSURE",
+      "node": "solr-node-03",
+      "start_minute": 10,
+      "end_minute": 18,
+      "expected_rca": "Heap pressure causes long GC pauses and slow requests."
+    },
+    {
+      "scenario": "FULL_GC_STORM",
+      "node": "solr-node-07",
+      "start_minute": 20,
+      "end_minute": 28,
+      "expected_rca": "Repeated full GC pauses cause request latency spikes."
+    },
+    {
+      "scenario": "SOLR_QUERY_LATENCY",
+      "node": "solr-node-11",
+      "start_minute": 30,
+      "end_minute": 38,
+      "expected_rca": "Expensive queries cause high request latency without JVM pressure."
+    },
+    {
+      "scenario": "REPLICA_UNAVAILABLE",
+      "node": "solr-node-15",
+      "start_minute": 12,
+      "end_minute": 22,
+      "expected_rca": "A shard replica becomes unavailable, producing 503 responses."
+    },
+    {
+      "scenario": "DISK_IO_SATURATION",
+      "node": "solr-node-19",
+      "start_minute": 40,
+      "end_minute": 48,
+      "expected_rca": "Slow disk I/O extends GC and indexing request latency."
+    },
+    {
+      "scenario": "COORDINATION_FAILURE",
+      "node": "solr-node-21",
+      "start_minute": 25,
+      "end_minute": 33,
+      "expected_rca": "ZooKeeper session instability causes leader-election errors."
+    },
+    {
+      "scenario": "NODE_OOM",
+      "node": "solr-node-24",
+      "start_minute": 48,
+      "end_minute": 55,
+      "expected_rca": "Heap exhaustion leads to OutOfMemoryError and node request failures."
+    }
+  ]
+}

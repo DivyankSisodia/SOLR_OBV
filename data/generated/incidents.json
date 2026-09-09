@@ -1,0 +1,1551 @@
+[
+  {
+    "incident_id": "INC-001",
+    "node": "solr-node-03",
+    "start": "2026-01-15T09:10:00+00:00",
+    "end": "2026-01-15T09:18:00+00:00",
+    "classification": "JVM_MEMORY_PRESSURE",
+    "severity": "high",
+    "signals": [
+      "HIGH_HEAP",
+      "HIGH_SOLR_LATENCY",
+      "LONG_GC_PAUSE"
+    ],
+    "evidence": [
+      {
+        "timestamp": "2026-01-15T09:10:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1905 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:10:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_HEAP",
+        "detail": "93.98572979759773%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:10:00+00:00",
+        "node": "solr-node-03",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "860.6787273681853 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:11:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1217 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:11:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_HEAP",
+        "detail": "92.75056997110596%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:11:00+00:00",
+        "node": "solr-node-03",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "1128.1327380521634 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:12:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1302 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:12:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_HEAP",
+        "detail": "92.18134424473362%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:12:00+00:00",
+        "node": "solr-node-03",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "923.2221091388471 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:13:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1138 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:13:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_HEAP",
+        "detail": "95.17559913317278%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:13:00+00:00",
+        "node": "solr-node-03",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "1291.8410827462808 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:14:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1144 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:14:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_HEAP",
+        "detail": "91.10167153144083%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:14:00+00:00",
+        "node": "solr-node-03",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "1286.6657192637588 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:15:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1319 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:15:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_HEAP",
+        "detail": "94.87482241765744%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:15:00+00:00",
+        "node": "solr-node-03",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "1202.0189056034128 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:16:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1426 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:16:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_HEAP",
+        "detail": "91.71834345581317%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:16:00+00:00",
+        "node": "solr-node-03",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "1280.7425384162475 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:17:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1348 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:17:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_HEAP",
+        "detail": "92.90095168157576%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:17:00+00:00",
+        "node": "solr-node-03",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "1260.830645563926 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:18:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1209 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:18:00+00:00",
+        "node": "solr-node-03",
+        "signal": "HIGH_HEAP",
+        "detail": "91.0463358424005%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:18:00+00:00",
+        "node": "solr-node-03",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "1133.9809343322477 ms",
+        "source": "jvm_gc"
+      }
+    ],
+    "rca_prompt": "You are a cautious Solr SRE. Analyze ONLY the supplied evidence.\nIncident: INC-001 on solr-node-03, classification candidate: JVM_MEMORY_PRESSURE.\nEvidence:\n- 2026-01-15T09:10:00+00:00: HIGH_SOLR_LATENCY (1905 ms)\n- 2026-01-15T09:10:00+00:00: HIGH_HEAP (93.98572979759773%)\n- 2026-01-15T09:10:00+00:00: LONG_GC_PAUSE (860.6787273681853 ms)\n- 2026-01-15T09:11:00+00:00: HIGH_SOLR_LATENCY (1217 ms)\n- 2026-01-15T09:11:00+00:00: HIGH_HEAP (92.75056997110596%)\n- 2026-01-15T09:11:00+00:00: LONG_GC_PAUSE (1128.1327380521634 ms)\n- 2026-01-15T09:12:00+00:00: HIGH_SOLR_LATENCY (1302 ms)\n- 2026-01-15T09:12:00+00:00: HIGH_HEAP (92.18134424473362%)\n- 2026-01-15T09:12:00+00:00: LONG_GC_PAUSE (923.2221091388471 ms)\n- 2026-01-15T09:13:00+00:00: HIGH_SOLR_LATENCY (1138 ms)\n- 2026-01-15T09:13:00+00:00: HIGH_HEAP (95.17559913317278%)\n- 2026-01-15T09:13:00+00:00: LONG_GC_PAUSE (1291.8410827462808 ms)\n- 2026-01-15T09:14:00+00:00: HIGH_SOLR_LATENCY (1144 ms)\n- 2026-01-15T09:14:00+00:00: HIGH_HEAP (91.10167153144083%)\n- 2026-01-15T09:14:00+00:00: LONG_GC_PAUSE (1286.6657192637588 ms)\n- 2026-01-15T09:15:00+00:00: HIGH_SOLR_LATENCY (1319 ms)\n- 2026-01-15T09:15:00+00:00: HIGH_HEAP (94.87482241765744%)\n- 2026-01-15T09:15:00+00:00: LONG_GC_PAUSE (1202.0189056034128 ms)\n- 2026-01-15T09:16:00+00:00: HIGH_SOLR_LATENCY (1426 ms)\n- 2026-01-15T09:16:00+00:00: HIGH_HEAP (91.71834345581317%)\n\nReturn: (1) likely root cause, (2) user impact, (3) safe first remediation, (4) confidence. If evidence is insufficient, say so. Do not claim unlisted metrics, causes, or actions."
+  },
+  {
+    "incident_id": "INC-002",
+    "node": "solr-node-15",
+    "start": "2026-01-15T09:12:00+00:00",
+    "end": "2026-01-15T09:22:00+00:00",
+    "classification": "REPLICA_UNAVAILABLE",
+    "severity": "high",
+    "signals": [
+      "HIGH_SOLR_LATENCY",
+      "REPLICA_FAILURE",
+      "SOLR_ERROR"
+    ],
+    "evidence": [
+      {
+        "timestamp": "2026-01-15T09:12:00+00:00",
+        "node": "solr-node-15",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1140 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:12:00+00:00",
+        "node": "solr-node-15",
+        "signal": "SOLR_ERROR",
+        "detail": "503: replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:12:00+00:00",
+        "node": "solr-node-15",
+        "signal": "REPLICA_FAILURE",
+        "detail": "replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:13:00+00:00",
+        "node": "solr-node-15",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1561 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:13:00+00:00",
+        "node": "solr-node-15",
+        "signal": "SOLR_ERROR",
+        "detail": "503: replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:13:00+00:00",
+        "node": "solr-node-15",
+        "signal": "REPLICA_FAILURE",
+        "detail": "replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:14:00+00:00",
+        "node": "solr-node-15",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1631 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:14:00+00:00",
+        "node": "solr-node-15",
+        "signal": "SOLR_ERROR",
+        "detail": "503: replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:14:00+00:00",
+        "node": "solr-node-15",
+        "signal": "REPLICA_FAILURE",
+        "detail": "replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:15:00+00:00",
+        "node": "solr-node-15",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1755 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:15:00+00:00",
+        "node": "solr-node-15",
+        "signal": "SOLR_ERROR",
+        "detail": "503: replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:15:00+00:00",
+        "node": "solr-node-15",
+        "signal": "REPLICA_FAILURE",
+        "detail": "replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:16:00+00:00",
+        "node": "solr-node-15",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1616 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:16:00+00:00",
+        "node": "solr-node-15",
+        "signal": "SOLR_ERROR",
+        "detail": "503: replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:16:00+00:00",
+        "node": "solr-node-15",
+        "signal": "REPLICA_FAILURE",
+        "detail": "replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:17:00+00:00",
+        "node": "solr-node-15",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1249 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:17:00+00:00",
+        "node": "solr-node-15",
+        "signal": "SOLR_ERROR",
+        "detail": "503: replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:17:00+00:00",
+        "node": "solr-node-15",
+        "signal": "REPLICA_FAILURE",
+        "detail": "replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:18:00+00:00",
+        "node": "solr-node-15",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1402 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:18:00+00:00",
+        "node": "solr-node-15",
+        "signal": "SOLR_ERROR",
+        "detail": "503: replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:18:00+00:00",
+        "node": "solr-node-15",
+        "signal": "REPLICA_FAILURE",
+        "detail": "replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:19:00+00:00",
+        "node": "solr-node-15",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1652 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:19:00+00:00",
+        "node": "solr-node-15",
+        "signal": "SOLR_ERROR",
+        "detail": "503: replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:19:00+00:00",
+        "node": "solr-node-15",
+        "signal": "REPLICA_FAILURE",
+        "detail": "replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:20:00+00:00",
+        "node": "solr-node-15",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1600 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:20:00+00:00",
+        "node": "solr-node-15",
+        "signal": "SOLR_ERROR",
+        "detail": "503: replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:20:00+00:00",
+        "node": "solr-node-15",
+        "signal": "REPLICA_FAILURE",
+        "detail": "replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:21:00+00:00",
+        "node": "solr-node-15",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1200 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:21:00+00:00",
+        "node": "solr-node-15",
+        "signal": "SOLR_ERROR",
+        "detail": "503: replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:21:00+00:00",
+        "node": "solr-node-15",
+        "signal": "REPLICA_FAILURE",
+        "detail": "replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:22:00+00:00",
+        "node": "solr-node-15",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1518 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:22:00+00:00",
+        "node": "solr-node-15",
+        "signal": "SOLR_ERROR",
+        "detail": "503: replica unavailable for shard2",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:22:00+00:00",
+        "node": "solr-node-15",
+        "signal": "REPLICA_FAILURE",
+        "detail": "replica unavailable for shard2",
+        "source": "solr"
+      }
+    ],
+    "rca_prompt": "You are a cautious Solr SRE. Analyze ONLY the supplied evidence.\nIncident: INC-002 on solr-node-15, classification candidate: REPLICA_UNAVAILABLE.\nEvidence:\n- 2026-01-15T09:12:00+00:00: HIGH_SOLR_LATENCY (1140 ms)\n- 2026-01-15T09:12:00+00:00: SOLR_ERROR (503: replica unavailable for shard2)\n- 2026-01-15T09:12:00+00:00: REPLICA_FAILURE (replica unavailable for shard2)\n- 2026-01-15T09:13:00+00:00: HIGH_SOLR_LATENCY (1561 ms)\n- 2026-01-15T09:13:00+00:00: SOLR_ERROR (503: replica unavailable for shard2)\n- 2026-01-15T09:13:00+00:00: REPLICA_FAILURE (replica unavailable for shard2)\n- 2026-01-15T09:14:00+00:00: HIGH_SOLR_LATENCY (1631 ms)\n- 2026-01-15T09:14:00+00:00: SOLR_ERROR (503: replica unavailable for shard2)\n- 2026-01-15T09:14:00+00:00: REPLICA_FAILURE (replica unavailable for shard2)\n- 2026-01-15T09:15:00+00:00: HIGH_SOLR_LATENCY (1755 ms)\n- 2026-01-15T09:15:00+00:00: SOLR_ERROR (503: replica unavailable for shard2)\n- 2026-01-15T09:15:00+00:00: REPLICA_FAILURE (replica unavailable for shard2)\n- 2026-01-15T09:16:00+00:00: HIGH_SOLR_LATENCY (1616 ms)\n- 2026-01-15T09:16:00+00:00: SOLR_ERROR (503: replica unavailable for shard2)\n- 2026-01-15T09:16:00+00:00: REPLICA_FAILURE (replica unavailable for shard2)\n- 2026-01-15T09:17:00+00:00: HIGH_SOLR_LATENCY (1249 ms)\n- 2026-01-15T09:17:00+00:00: SOLR_ERROR (503: replica unavailable for shard2)\n- 2026-01-15T09:17:00+00:00: REPLICA_FAILURE (replica unavailable for shard2)\n- 2026-01-15T09:18:00+00:00: HIGH_SOLR_LATENCY (1402 ms)\n- 2026-01-15T09:18:00+00:00: SOLR_ERROR (503: replica unavailable for shard2)\n\nReturn: (1) likely root cause, (2) user impact, (3) safe first remediation, (4) confidence. If evidence is insufficient, say so. Do not claim unlisted metrics, causes, or actions."
+  },
+  {
+    "incident_id": "INC-003",
+    "node": "solr-node-07",
+    "start": "2026-01-15T09:20:00+00:00",
+    "end": "2026-01-15T09:28:00+00:00",
+    "classification": "FULL_GC_STORM",
+    "severity": "critical",
+    "signals": [
+      "FULL_GC",
+      "HIGH_HEAP",
+      "HIGH_SOLR_LATENCY",
+      "LONG_GC_PAUSE"
+    ],
+    "evidence": [
+      {
+        "timestamp": "2026-01-15T09:20:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1909 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:20:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_HEAP",
+        "detail": "90.6981522729202%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:20:00+00:00",
+        "node": "solr-node-07",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "2285.7219943024156 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:20:00+00:00",
+        "node": "solr-node-07",
+        "signal": "FULL_GC",
+        "detail": "Full GC",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:21:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "2240 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:21:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_HEAP",
+        "detail": "95.00572219354568%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:21:00+00:00",
+        "node": "solr-node-07",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "1623.9703861119492 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:21:00+00:00",
+        "node": "solr-node-07",
+        "signal": "FULL_GC",
+        "detail": "Full GC",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:22:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "2037 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:22:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_HEAP",
+        "detail": "93.34134531512282%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:22:00+00:00",
+        "node": "solr-node-07",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "2545.299400544597 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:22:00+00:00",
+        "node": "solr-node-07",
+        "signal": "FULL_GC",
+        "detail": "Full GC",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:23:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "2136 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:23:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_HEAP",
+        "detail": "92.86337202877515%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:23:00+00:00",
+        "node": "solr-node-07",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "1930.28655221912 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:23:00+00:00",
+        "node": "solr-node-07",
+        "signal": "FULL_GC",
+        "detail": "Full GC",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:24:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "2059 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:24:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_HEAP",
+        "detail": "94.67491901787587%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:24:00+00:00",
+        "node": "solr-node-07",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "2264.3010660698537 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:24:00+00:00",
+        "node": "solr-node-07",
+        "signal": "FULL_GC",
+        "detail": "Full GC",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:25:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "2189 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:25:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_HEAP",
+        "detail": "95.02238205042629%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:25:00+00:00",
+        "node": "solr-node-07",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "2402.240301458744 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:25:00+00:00",
+        "node": "solr-node-07",
+        "signal": "FULL_GC",
+        "detail": "Full GC",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:26:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "2055 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:26:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_HEAP",
+        "detail": "89.07945422192535%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:26:00+00:00",
+        "node": "solr-node-07",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "2145.33681227953 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:26:00+00:00",
+        "node": "solr-node-07",
+        "signal": "FULL_GC",
+        "detail": "Full GC",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:27:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1833 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:27:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_HEAP",
+        "detail": "89.4359800446397%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:27:00+00:00",
+        "node": "solr-node-07",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "2361.177106600134 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:27:00+00:00",
+        "node": "solr-node-07",
+        "signal": "FULL_GC",
+        "detail": "Full GC",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:28:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "2530 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:28:00+00:00",
+        "node": "solr-node-07",
+        "signal": "HIGH_HEAP",
+        "detail": "93.17981446931617%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:28:00+00:00",
+        "node": "solr-node-07",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "1538.094498697625 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:28:00+00:00",
+        "node": "solr-node-07",
+        "signal": "FULL_GC",
+        "detail": "Full GC",
+        "source": "jvm_gc"
+      }
+    ],
+    "rca_prompt": "You are a cautious Solr SRE. Analyze ONLY the supplied evidence.\nIncident: INC-003 on solr-node-07, classification candidate: FULL_GC_STORM.\nEvidence:\n- 2026-01-15T09:20:00+00:00: HIGH_SOLR_LATENCY (1909 ms)\n- 2026-01-15T09:20:00+00:00: HIGH_HEAP (90.6981522729202%)\n- 2026-01-15T09:20:00+00:00: LONG_GC_PAUSE (2285.7219943024156 ms)\n- 2026-01-15T09:20:00+00:00: FULL_GC (Full GC)\n- 2026-01-15T09:21:00+00:00: HIGH_SOLR_LATENCY (2240 ms)\n- 2026-01-15T09:21:00+00:00: HIGH_HEAP (95.00572219354568%)\n- 2026-01-15T09:21:00+00:00: LONG_GC_PAUSE (1623.9703861119492 ms)\n- 2026-01-15T09:21:00+00:00: FULL_GC (Full GC)\n- 2026-01-15T09:22:00+00:00: HIGH_SOLR_LATENCY (2037 ms)\n- 2026-01-15T09:22:00+00:00: HIGH_HEAP (93.34134531512282%)\n- 2026-01-15T09:22:00+00:00: LONG_GC_PAUSE (2545.299400544597 ms)\n- 2026-01-15T09:22:00+00:00: FULL_GC (Full GC)\n- 2026-01-15T09:23:00+00:00: HIGH_SOLR_LATENCY (2136 ms)\n- 2026-01-15T09:23:00+00:00: HIGH_HEAP (92.86337202877515%)\n- 2026-01-15T09:23:00+00:00: LONG_GC_PAUSE (1930.28655221912 ms)\n- 2026-01-15T09:23:00+00:00: FULL_GC (Full GC)\n- 2026-01-15T09:24:00+00:00: HIGH_SOLR_LATENCY (2059 ms)\n- 2026-01-15T09:24:00+00:00: HIGH_HEAP (94.67491901787587%)\n- 2026-01-15T09:24:00+00:00: LONG_GC_PAUSE (2264.3010660698537 ms)\n- 2026-01-15T09:24:00+00:00: FULL_GC (Full GC)\n\nReturn: (1) likely root cause, (2) user impact, (3) safe first remediation, (4) confidence. If evidence is insufficient, say so. Do not claim unlisted metrics, causes, or actions."
+  },
+  {
+    "incident_id": "INC-004",
+    "node": "solr-node-21",
+    "start": "2026-01-15T09:25:00+00:00",
+    "end": "2026-01-15T09:33:00+00:00",
+    "classification": "COORDINATION_FAILURE",
+    "severity": "critical",
+    "signals": [
+      "HIGH_SOLR_LATENCY",
+      "SOLR_ERROR",
+      "ZK_FAILURE"
+    ],
+    "evidence": [
+      {
+        "timestamp": "2026-01-15T09:25:00+00:00",
+        "node": "solr-node-21",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1432 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:25:00+00:00",
+        "node": "solr-node-21",
+        "signal": "SOLR_ERROR",
+        "detail": "500: ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:25:00+00:00",
+        "node": "solr-node-21",
+        "signal": "ZK_FAILURE",
+        "detail": "ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:26:00+00:00",
+        "node": "solr-node-21",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1416 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:26:00+00:00",
+        "node": "solr-node-21",
+        "signal": "SOLR_ERROR",
+        "detail": "500: ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:26:00+00:00",
+        "node": "solr-node-21",
+        "signal": "ZK_FAILURE",
+        "detail": "ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:27:00+00:00",
+        "node": "solr-node-21",
+        "signal": "SOLR_ERROR",
+        "detail": "500: ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:27:00+00:00",
+        "node": "solr-node-21",
+        "signal": "ZK_FAILURE",
+        "detail": "ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:28:00+00:00",
+        "node": "solr-node-21",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1255 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:28:00+00:00",
+        "node": "solr-node-21",
+        "signal": "SOLR_ERROR",
+        "detail": "500: ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:28:00+00:00",
+        "node": "solr-node-21",
+        "signal": "ZK_FAILURE",
+        "detail": "ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:29:00+00:00",
+        "node": "solr-node-21",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1341 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:29:00+00:00",
+        "node": "solr-node-21",
+        "signal": "SOLR_ERROR",
+        "detail": "500: ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:29:00+00:00",
+        "node": "solr-node-21",
+        "signal": "ZK_FAILURE",
+        "detail": "ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:30:00+00:00",
+        "node": "solr-node-21",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1160 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:30:00+00:00",
+        "node": "solr-node-21",
+        "signal": "SOLR_ERROR",
+        "detail": "500: ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:30:00+00:00",
+        "node": "solr-node-21",
+        "signal": "ZK_FAILURE",
+        "detail": "ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:31:00+00:00",
+        "node": "solr-node-21",
+        "signal": "SOLR_ERROR",
+        "detail": "500: ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:31:00+00:00",
+        "node": "solr-node-21",
+        "signal": "ZK_FAILURE",
+        "detail": "ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:32:00+00:00",
+        "node": "solr-node-21",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1382 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:32:00+00:00",
+        "node": "solr-node-21",
+        "signal": "SOLR_ERROR",
+        "detail": "500: ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:32:00+00:00",
+        "node": "solr-node-21",
+        "signal": "ZK_FAILURE",
+        "detail": "ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:33:00+00:00",
+        "node": "solr-node-21",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1281 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:33:00+00:00",
+        "node": "solr-node-21",
+        "signal": "SOLR_ERROR",
+        "detail": "500: ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:33:00+00:00",
+        "node": "solr-node-21",
+        "signal": "ZK_FAILURE",
+        "detail": "ZooKeeper session expired; leader election failed",
+        "source": "solr"
+      }
+    ],
+    "rca_prompt": "You are a cautious Solr SRE. Analyze ONLY the supplied evidence.\nIncident: INC-004 on solr-node-21, classification candidate: COORDINATION_FAILURE.\nEvidence:\n- 2026-01-15T09:25:00+00:00: HIGH_SOLR_LATENCY (1432 ms)\n- 2026-01-15T09:25:00+00:00: SOLR_ERROR (500: ZooKeeper session expired; leader election failed)\n- 2026-01-15T09:25:00+00:00: ZK_FAILURE (ZooKeeper session expired; leader election failed)\n- 2026-01-15T09:26:00+00:00: HIGH_SOLR_LATENCY (1416 ms)\n- 2026-01-15T09:26:00+00:00: SOLR_ERROR (500: ZooKeeper session expired; leader election failed)\n- 2026-01-15T09:26:00+00:00: ZK_FAILURE (ZooKeeper session expired; leader election failed)\n- 2026-01-15T09:27:00+00:00: SOLR_ERROR (500: ZooKeeper session expired; leader election failed)\n- 2026-01-15T09:27:00+00:00: ZK_FAILURE (ZooKeeper session expired; leader election failed)\n- 2026-01-15T09:28:00+00:00: HIGH_SOLR_LATENCY (1255 ms)\n- 2026-01-15T09:28:00+00:00: SOLR_ERROR (500: ZooKeeper session expired; leader election failed)\n- 2026-01-15T09:28:00+00:00: ZK_FAILURE (ZooKeeper session expired; leader election failed)\n- 2026-01-15T09:29:00+00:00: HIGH_SOLR_LATENCY (1341 ms)\n- 2026-01-15T09:29:00+00:00: SOLR_ERROR (500: ZooKeeper session expired; leader election failed)\n- 2026-01-15T09:29:00+00:00: ZK_FAILURE (ZooKeeper session expired; leader election failed)\n- 2026-01-15T09:30:00+00:00: HIGH_SOLR_LATENCY (1160 ms)\n- 2026-01-15T09:30:00+00:00: SOLR_ERROR (500: ZooKeeper session expired; leader election failed)\n- 2026-01-15T09:30:00+00:00: ZK_FAILURE (ZooKeeper session expired; leader election failed)\n- 2026-01-15T09:31:00+00:00: SOLR_ERROR (500: ZooKeeper session expired; leader election failed)\n- 2026-01-15T09:31:00+00:00: ZK_FAILURE (ZooKeeper session expired; leader election failed)\n- 2026-01-15T09:32:00+00:00: HIGH_SOLR_LATENCY (1382 ms)\n\nReturn: (1) likely root cause, (2) user impact, (3) safe first remediation, (4) confidence. If evidence is insufficient, say so. Do not claim unlisted metrics, causes, or actions."
+  },
+  {
+    "incident_id": "INC-005",
+    "node": "solr-node-11",
+    "start": "2026-01-15T09:30:00+00:00",
+    "end": "2026-01-15T09:38:00+00:00",
+    "classification": "SOLR_QUERY_LATENCY",
+    "severity": "high",
+    "signals": [
+      "HIGH_SOLR_LATENCY"
+    ],
+    "evidence": [
+      {
+        "timestamp": "2026-01-15T09:30:00+00:00",
+        "node": "solr-node-11",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "3553 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:31:00+00:00",
+        "node": "solr-node-11",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "2951 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:32:00+00:00",
+        "node": "solr-node-11",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "2837 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:33:00+00:00",
+        "node": "solr-node-11",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1905 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:34:00+00:00",
+        "node": "solr-node-11",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "3540 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:35:00+00:00",
+        "node": "solr-node-11",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "2264 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:36:00+00:00",
+        "node": "solr-node-11",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "3049 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:37:00+00:00",
+        "node": "solr-node-11",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "3222 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:38:00+00:00",
+        "node": "solr-node-11",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "2831 ms",
+        "source": "solr"
+      }
+    ],
+    "rca_prompt": "You are a cautious Solr SRE. Analyze ONLY the supplied evidence.\nIncident: INC-005 on solr-node-11, classification candidate: SOLR_QUERY_LATENCY.\nEvidence:\n- 2026-01-15T09:30:00+00:00: HIGH_SOLR_LATENCY (3553 ms)\n- 2026-01-15T09:31:00+00:00: HIGH_SOLR_LATENCY (2951 ms)\n- 2026-01-15T09:32:00+00:00: HIGH_SOLR_LATENCY (2837 ms)\n- 2026-01-15T09:33:00+00:00: HIGH_SOLR_LATENCY (1905 ms)\n- 2026-01-15T09:34:00+00:00: HIGH_SOLR_LATENCY (3540 ms)\n- 2026-01-15T09:35:00+00:00: HIGH_SOLR_LATENCY (2264 ms)\n- 2026-01-15T09:36:00+00:00: HIGH_SOLR_LATENCY (3049 ms)\n- 2026-01-15T09:37:00+00:00: HIGH_SOLR_LATENCY (3222 ms)\n- 2026-01-15T09:38:00+00:00: HIGH_SOLR_LATENCY (2831 ms)\n\nReturn: (1) likely root cause, (2) user impact, (3) safe first remediation, (4) confidence. If evidence is insufficient, say so. Do not claim unlisted metrics, causes, or actions."
+  },
+  {
+    "incident_id": "INC-006",
+    "node": "solr-node-19",
+    "start": "2026-01-15T09:40:00+00:00",
+    "end": "2026-01-15T09:48:00+00:00",
+    "classification": "DISK_IO_SATURATION",
+    "severity": "high",
+    "signals": [
+      "DISK_SATURATION",
+      "HIGH_SOLR_LATENCY",
+      "LONG_GC_PAUSE"
+    ],
+    "evidence": [
+      {
+        "timestamp": "2026-01-15T09:40:00+00:00",
+        "node": "solr-node-19",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1857 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:40:00+00:00",
+        "node": "solr-node-19",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "841.3366229596056 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:40:00+00:00",
+        "node": "solr-node-19",
+        "signal": "DISK_SATURATION",
+        "detail": "96.7734592944582%",
+        "source": "system"
+      },
+      {
+        "timestamp": "2026-01-15T09:41:00+00:00",
+        "node": "solr-node-19",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1457 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:41:00+00:00",
+        "node": "solr-node-19",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "933.9172596026558 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:41:00+00:00",
+        "node": "solr-node-19",
+        "signal": "DISK_SATURATION",
+        "detail": "97.68641535621514%",
+        "source": "system"
+      },
+      {
+        "timestamp": "2026-01-15T09:42:00+00:00",
+        "node": "solr-node-19",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1585 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:42:00+00:00",
+        "node": "solr-node-19",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "655.2779093388183 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:42:00+00:00",
+        "node": "solr-node-19",
+        "signal": "DISK_SATURATION",
+        "detail": "96.46715261720657%",
+        "source": "system"
+      },
+      {
+        "timestamp": "2026-01-15T09:43:00+00:00",
+        "node": "solr-node-19",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1852 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:43:00+00:00",
+        "node": "solr-node-19",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "670.9966845105477 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:43:00+00:00",
+        "node": "solr-node-19",
+        "signal": "DISK_SATURATION",
+        "detail": "96.02678956766803%",
+        "source": "system"
+      },
+      {
+        "timestamp": "2026-01-15T09:44:00+00:00",
+        "node": "solr-node-19",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1247 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:44:00+00:00",
+        "node": "solr-node-19",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "842.6655441129968 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:44:00+00:00",
+        "node": "solr-node-19",
+        "signal": "DISK_SATURATION",
+        "detail": "96.69305400993663%",
+        "source": "system"
+      },
+      {
+        "timestamp": "2026-01-15T09:45:00+00:00",
+        "node": "solr-node-19",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1346 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:45:00+00:00",
+        "node": "solr-node-19",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "761.0428140757072 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:45:00+00:00",
+        "node": "solr-node-19",
+        "signal": "DISK_SATURATION",
+        "detail": "97.5141880383361%",
+        "source": "system"
+      },
+      {
+        "timestamp": "2026-01-15T09:46:00+00:00",
+        "node": "solr-node-19",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1563 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:46:00+00:00",
+        "node": "solr-node-19",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "1147.9972056234042 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:46:00+00:00",
+        "node": "solr-node-19",
+        "signal": "DISK_SATURATION",
+        "detail": "96.90697863480906%",
+        "source": "system"
+      },
+      {
+        "timestamp": "2026-01-15T09:47:00+00:00",
+        "node": "solr-node-19",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1161 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:47:00+00:00",
+        "node": "solr-node-19",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "669.2559865141253 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:47:00+00:00",
+        "node": "solr-node-19",
+        "signal": "DISK_SATURATION",
+        "detail": "98.11233765155643%",
+        "source": "system"
+      },
+      {
+        "timestamp": "2026-01-15T09:48:00+00:00",
+        "node": "solr-node-19",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "1856 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:48:00+00:00",
+        "node": "solr-node-19",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "947.4844931523598 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:48:00+00:00",
+        "node": "solr-node-19",
+        "signal": "DISK_SATURATION",
+        "detail": "98.074540854242%",
+        "source": "system"
+      }
+    ],
+    "rca_prompt": "You are a cautious Solr SRE. Analyze ONLY the supplied evidence.\nIncident: INC-006 on solr-node-19, classification candidate: DISK_IO_SATURATION.\nEvidence:\n- 2026-01-15T09:40:00+00:00: HIGH_SOLR_LATENCY (1857 ms)\n- 2026-01-15T09:40:00+00:00: LONG_GC_PAUSE (841.3366229596056 ms)\n- 2026-01-15T09:40:00+00:00: DISK_SATURATION (96.7734592944582%)\n- 2026-01-15T09:41:00+00:00: HIGH_SOLR_LATENCY (1457 ms)\n- 2026-01-15T09:41:00+00:00: LONG_GC_PAUSE (933.9172596026558 ms)\n- 2026-01-15T09:41:00+00:00: DISK_SATURATION (97.68641535621514%)\n- 2026-01-15T09:42:00+00:00: HIGH_SOLR_LATENCY (1585 ms)\n- 2026-01-15T09:42:00+00:00: LONG_GC_PAUSE (655.2779093388183 ms)\n- 2026-01-15T09:42:00+00:00: DISK_SATURATION (96.46715261720657%)\n- 2026-01-15T09:43:00+00:00: HIGH_SOLR_LATENCY (1852 ms)\n- 2026-01-15T09:43:00+00:00: LONG_GC_PAUSE (670.9966845105477 ms)\n- 2026-01-15T09:43:00+00:00: DISK_SATURATION (96.02678956766803%)\n- 2026-01-15T09:44:00+00:00: HIGH_SOLR_LATENCY (1247 ms)\n- 2026-01-15T09:44:00+00:00: LONG_GC_PAUSE (842.6655441129968 ms)\n- 2026-01-15T09:44:00+00:00: DISK_SATURATION (96.69305400993663%)\n- 2026-01-15T09:45:00+00:00: HIGH_SOLR_LATENCY (1346 ms)\n- 2026-01-15T09:45:00+00:00: LONG_GC_PAUSE (761.0428140757072 ms)\n- 2026-01-15T09:45:00+00:00: DISK_SATURATION (97.5141880383361%)\n- 2026-01-15T09:46:00+00:00: HIGH_SOLR_LATENCY (1563 ms)\n- 2026-01-15T09:46:00+00:00: LONG_GC_PAUSE (1147.9972056234042 ms)\n\nReturn: (1) likely root cause, (2) user impact, (3) safe first remediation, (4) confidence. If evidence is insufficient, say so. Do not claim unlisted metrics, causes, or actions."
+  },
+  {
+    "incident_id": "INC-007",
+    "node": "solr-node-24",
+    "start": "2026-01-15T09:48:00+00:00",
+    "end": "2026-01-15T09:55:00+00:00",
+    "classification": "NODE_OOM",
+    "severity": "critical",
+    "signals": [
+      "FULL_GC",
+      "HIGH_HEAP",
+      "HIGH_SOLR_LATENCY",
+      "LONG_GC_PAUSE",
+      "OOM_ERROR",
+      "SOLR_ERROR"
+    ],
+    "evidence": [
+      {
+        "timestamp": "2026-01-15T09:48:00+00:00",
+        "node": "solr-node-24",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "3644 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:48:00+00:00",
+        "node": "solr-node-24",
+        "signal": "SOLR_ERROR",
+        "detail": "500: java.lang.OutOfMemoryError: Java heap space",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:48:00+00:00",
+        "node": "solr-node-24",
+        "signal": "OOM_ERROR",
+        "detail": "java.lang.OutOfMemoryError: Java heap space",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:48:00+00:00",
+        "node": "solr-node-24",
+        "signal": "HIGH_HEAP",
+        "detail": "99.5%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:48:00+00:00",
+        "node": "solr-node-24",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "3314.230367964176 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:48:00+00:00",
+        "node": "solr-node-24",
+        "signal": "FULL_GC",
+        "detail": "Full GC",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:49:00+00:00",
+        "node": "solr-node-24",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "3894 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:49:00+00:00",
+        "node": "solr-node-24",
+        "signal": "SOLR_ERROR",
+        "detail": "500: java.lang.OutOfMemoryError: Java heap space",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:49:00+00:00",
+        "node": "solr-node-24",
+        "signal": "OOM_ERROR",
+        "detail": "java.lang.OutOfMemoryError: Java heap space",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:49:00+00:00",
+        "node": "solr-node-24",
+        "signal": "HIGH_HEAP",
+        "detail": "99.5%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:49:00+00:00",
+        "node": "solr-node-24",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "3235.12474864123 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:49:00+00:00",
+        "node": "solr-node-24",
+        "signal": "FULL_GC",
+        "detail": "Full GC",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:50:00+00:00",
+        "node": "solr-node-24",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "3410 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:50:00+00:00",
+        "node": "solr-node-24",
+        "signal": "SOLR_ERROR",
+        "detail": "500: java.lang.OutOfMemoryError: Java heap space",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:50:00+00:00",
+        "node": "solr-node-24",
+        "signal": "OOM_ERROR",
+        "detail": "java.lang.OutOfMemoryError: Java heap space",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:50:00+00:00",
+        "node": "solr-node-24",
+        "signal": "HIGH_HEAP",
+        "detail": "99.5%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:50:00+00:00",
+        "node": "solr-node-24",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "3279.4710093354984 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:50:00+00:00",
+        "node": "solr-node-24",
+        "signal": "FULL_GC",
+        "detail": "Full GC",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:51:00+00:00",
+        "node": "solr-node-24",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "3231 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:51:00+00:00",
+        "node": "solr-node-24",
+        "signal": "SOLR_ERROR",
+        "detail": "500: java.lang.OutOfMemoryError: Java heap space",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:51:00+00:00",
+        "node": "solr-node-24",
+        "signal": "OOM_ERROR",
+        "detail": "java.lang.OutOfMemoryError: Java heap space",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:51:00+00:00",
+        "node": "solr-node-24",
+        "signal": "HIGH_HEAP",
+        "detail": "99.5%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:51:00+00:00",
+        "node": "solr-node-24",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "3146.2432460470236 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:51:00+00:00",
+        "node": "solr-node-24",
+        "signal": "FULL_GC",
+        "detail": "Full GC",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:52:00+00:00",
+        "node": "solr-node-24",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "3891 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:52:00+00:00",
+        "node": "solr-node-24",
+        "signal": "SOLR_ERROR",
+        "detail": "500: java.lang.OutOfMemoryError: Java heap space",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:52:00+00:00",
+        "node": "solr-node-24",
+        "signal": "OOM_ERROR",
+        "detail": "java.lang.OutOfMemoryError: Java heap space",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:52:00+00:00",
+        "node": "solr-node-24",
+        "signal": "HIGH_HEAP",
+        "detail": "99.5%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:52:00+00:00",
+        "node": "solr-node-24",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "2930.6348478600225 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:52:00+00:00",
+        "node": "solr-node-24",
+        "signal": "FULL_GC",
+        "detail": "Full GC",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:53:00+00:00",
+        "node": "solr-node-24",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "3413 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:53:00+00:00",
+        "node": "solr-node-24",
+        "signal": "SOLR_ERROR",
+        "detail": "500: java.lang.OutOfMemoryError: Java heap space",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:53:00+00:00",
+        "node": "solr-node-24",
+        "signal": "OOM_ERROR",
+        "detail": "java.lang.OutOfMemoryError: Java heap space",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:53:00+00:00",
+        "node": "solr-node-24",
+        "signal": "HIGH_HEAP",
+        "detail": "99.5%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:53:00+00:00",
+        "node": "solr-node-24",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "3230.325483474522 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:53:00+00:00",
+        "node": "solr-node-24",
+        "signal": "FULL_GC",
+        "detail": "Full GC",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:54:00+00:00",
+        "node": "solr-node-24",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "3867 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:54:00+00:00",
+        "node": "solr-node-24",
+        "signal": "SOLR_ERROR",
+        "detail": "500: java.lang.OutOfMemoryError: Java heap space",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:54:00+00:00",
+        "node": "solr-node-24",
+        "signal": "OOM_ERROR",
+        "detail": "java.lang.OutOfMemoryError: Java heap space",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:54:00+00:00",
+        "node": "solr-node-24",
+        "signal": "HIGH_HEAP",
+        "detail": "99.5%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:54:00+00:00",
+        "node": "solr-node-24",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "2889.971065610253 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:54:00+00:00",
+        "node": "solr-node-24",
+        "signal": "FULL_GC",
+        "detail": "Full GC",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:55:00+00:00",
+        "node": "solr-node-24",
+        "signal": "HIGH_SOLR_LATENCY",
+        "detail": "3235 ms",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:55:00+00:00",
+        "node": "solr-node-24",
+        "signal": "SOLR_ERROR",
+        "detail": "500: java.lang.OutOfMemoryError: Java heap space",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:55:00+00:00",
+        "node": "solr-node-24",
+        "signal": "OOM_ERROR",
+        "detail": "java.lang.OutOfMemoryError: Java heap space",
+        "source": "solr"
+      },
+      {
+        "timestamp": "2026-01-15T09:55:00+00:00",
+        "node": "solr-node-24",
+        "signal": "HIGH_HEAP",
+        "detail": "99.5%",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:55:00+00:00",
+        "node": "solr-node-24",
+        "signal": "LONG_GC_PAUSE",
+        "detail": "3297.4800740890473 ms",
+        "source": "jvm_gc"
+      },
+      {
+        "timestamp": "2026-01-15T09:55:00+00:00",
+        "node": "solr-node-24",
+        "signal": "FULL_GC",
+        "detail": "Full GC",
+        "source": "jvm_gc"
+      }
+    ],
+    "rca_prompt": "You are a cautious Solr SRE. Analyze ONLY the supplied evidence.\nIncident: INC-007 on solr-node-24, classification candidate: NODE_OOM.\nEvidence:\n- 2026-01-15T09:48:00+00:00: HIGH_SOLR_LATENCY (3644 ms)\n- 2026-01-15T09:48:00+00:00: SOLR_ERROR (500: java.lang.OutOfMemoryError: Java heap space)\n- 2026-01-15T09:48:00+00:00: OOM_ERROR (java.lang.OutOfMemoryError: Java heap space)\n- 2026-01-15T09:48:00+00:00: HIGH_HEAP (99.5%)\n- 2026-01-15T09:48:00+00:00: LONG_GC_PAUSE (3314.230367964176 ms)\n- 2026-01-15T09:48:00+00:00: FULL_GC (Full GC)\n- 2026-01-15T09:49:00+00:00: HIGH_SOLR_LATENCY (3894 ms)\n- 2026-01-15T09:49:00+00:00: SOLR_ERROR (500: java.lang.OutOfMemoryError: Java heap space)\n- 2026-01-15T09:49:00+00:00: OOM_ERROR (java.lang.OutOfMemoryError: Java heap space)\n- 2026-01-15T09:49:00+00:00: HIGH_HEAP (99.5%)\n- 2026-01-15T09:49:00+00:00: LONG_GC_PAUSE (3235.12474864123 ms)\n- 2026-01-15T09:49:00+00:00: FULL_GC (Full GC)\n- 2026-01-15T09:50:00+00:00: HIGH_SOLR_LATENCY (3410 ms)\n- 2026-01-15T09:50:00+00:00: SOLR_ERROR (500: java.lang.OutOfMemoryError: Java heap space)\n- 2026-01-15T09:50:00+00:00: OOM_ERROR (java.lang.OutOfMemoryError: Java heap space)\n- 2026-01-15T09:50:00+00:00: HIGH_HEAP (99.5%)\n- 2026-01-15T09:50:00+00:00: LONG_GC_PAUSE (3279.4710093354984 ms)\n- 2026-01-15T09:50:00+00:00: FULL_GC (Full GC)\n- 2026-01-15T09:51:00+00:00: HIGH_SOLR_LATENCY (3231 ms)\n- 2026-01-15T09:51:00+00:00: SOLR_ERROR (500: java.lang.OutOfMemoryError: Java heap space)\n\nReturn: (1) likely root cause, (2) user impact, (3) safe first remediation, (4) confidence. If evidence is insufficient, say so. Do not claim unlisted metrics, causes, or actions."
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "true_positives": 7,
+  "false_positives": 0,
+  "false_negatives": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "scenario_results": [
+    {
+      "scenario": "JVM_MEMORY_PRESSURE",
+      "node": "solr-node-03",
+      "detected": true,
+      "incident_id": "INC-001"
+    },
+    {
+      "scenario": "FULL_GC_STORM",
+      "node": "solr-node-07",
+      "detected": true,
+      "incident_id": "INC-003"
+    },
+    {
+      "scenario": "SOLR_QUERY_LATENCY",
+      "node": "solr-node-11",
+      "detected": true,
+      "incident_id": "INC-005"
+    },
+    {
+      "scenario": "REPLICA_UNAVAILABLE",
+      "node": "solr-node-15",
+      "detected": true,
+      "incident_id": "INC-002"
+    },
+    {
+      "scenario": "DISK_IO_SATURATION",
+      "node": "solr-node-19",
+      "detected": true,
+      "incident_id": "INC-006"
+    },
+    {
+      "scenario": "COORDINATION_FAILURE",
+      "node": "solr-node-21",
+      "detected": true,
+      "incident_id": "INC-004"
+    },
+    {
+      "scenario": "NODE_OOM",
+      "node": "solr-node-24",
+      "detected": true,
+      "incident_id": "INC-007"
+    }
+  ]
+}

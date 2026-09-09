@@ -1,0 +1,9 @@
+{
+  "nodes": 25,
+  "solr_events": 1500,
+  "gc_events": 1500,
+  "incidents": 7,
+  "signals": 205,
+  "detected_incidents": 7,
+  "f1": 1.0
+}
