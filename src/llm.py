@@ -37,7 +37,7 @@ def build_rca_prompt(incident: dict) -> str:
 def run_rca(
     incident: dict,
     *,
-    model: str = "gemini-3.7-flash",
+    model: str = "gemini-3.1-flash-lite",
     api_key: str | None = None,
 ) -> str:
     """Build the RCA prompt for *incident* and send it to Gemini.
